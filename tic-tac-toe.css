@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    padding: 0%;
+    color: aliceblue;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    justify-items: center;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+.game{
+    margin-top:0%;
+    width: 65vmin;
+    height: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0% ;
+    align-items: center;
+    column-gap: 2vmin;
+}
+.box{
+    height: 20vmin;
+    width:20vmin;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 1rem   1rem  1rem  rgba(0,0,0,0.3);
+    background-color:white;
+    border-width: 0cap;
+    align-items: center;
+    font-size: 15vmin;
+    color: black;
+    justify-items: center;
+    align-content: center;
+    &:hover{
+        cursor:pointer;
+        background-color: aliceblue;
+       
+    }
+}
+#reset-btn button{
+    margin-top: 20px;
+    padding: 0.8rem;
+    width: max-content;
+    font-family: 'Times New Roman';
+    font-size: 2.7vmin;
+    font-weight:700;
+    border: black 0.6rem;
+    border-radius: 1rem;
+    background-color: lightblue;
+    color: black;
+    &:hover{
+        background-color:lightblue;
+    }
+}
+#msg{
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.msg-container{
+    height: 100vmin;
+    margin: 30vmin;
+}
+
+#new-game{
+    margin-top: 2vmin;
+    padding: 1rem;
+    width: max-content;
+    font-family: 'Times New Roman';
+    font-size: 2.7vmin;
+    font-weight: 700;
+    border: black 0.6rem;
+    border-radius: 1rem;
+    background-color:lightblue;
+    color: black;
+    &:hover{
+        background-color:lightblue;
+    }
+}
+.hide{
+    display: none;
+}    
+
+.xcolor{
+    color: red;
+}
+.Ocolor{
+    color: green;
+}
+.frozen{
+    pointer-events: none;
+}
